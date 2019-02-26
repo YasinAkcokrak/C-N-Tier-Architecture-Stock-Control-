@@ -1,0 +1,17 @@
+c:\users\akcok\onedrive\belgeler\visual studio 2013\Projects\confess\confess\bin\Debug\confess.exe.config
+c:\users\akcok\onedrive\belgeler\visual studio 2013\Projects\confess\confess\bin\Debug\confess.exe
+c:\users\akcok\onedrive\belgeler\visual studio 2013\Projects\confess\confess\bin\Debug\confess.pdb
+c:\users\akcok\onedrive\belgeler\visual studio 2013\Projects\confess\confess\obj\Debug\confess.csprojResolveAssemblyReference.cache
+c:\users\akcok\onedrive\belgeler\visual studio 2013\Projects\confess\confess\obj\Debug\confess.Giris.resources
+c:\users\akcok\onedrive\belgeler\visual studio 2013\Projects\confess\confess\obj\Debug\confess.Properties.Resources.resources
+c:\users\akcok\onedrive\belgeler\visual studio 2013\Projects\confess\confess\obj\Debug\confess.csproj.GenerateResource.Cache
+c:\users\akcok\onedrive\belgeler\visual studio 2013\Projects\confess\confess\obj\Debug\confess.exe
+c:\users\akcok\onedrive\belgeler\visual studio 2013\Projects\confess\confess\obj\Debug\confess.pdb
+c:\users\akcok\onedrive\belgeler\visual studio 2013\Projects\confess\confess\obj\Debug\confess.root.resources
+c:\users\akcok\onedrive\belgeler\visual studio 2013\Projects\confess\confess\obj\Debug\confess.Urun_Bilgisi.resources
+c:\users\akcok\onedrive\belgeler\visual studio 2013\Projects\confess\confess\obj\Debug\confess.Urun_Girdisi.resources
+c:\users\akcok\onedrive\belgeler\visual studio 2013\Projects\confess\confess\obj\Debug\confess.Tedarikci_Bilgileri.resources
+c:\users\akcok\onedrive\belgeler\visual studio 2013\Projects\confess\confess\obj\Debug\confess.Musteri_Bilgileri.resources
+c:\users\akcok\onedrive\belgeler\visual studio 2013\Projects\confess\confess\obj\Debug\confess.Urun_Cikis.resources
+C:\Users\akcok\OneDrive\Belgeler\Visual Studio 2013\Projects\confess\confess\obj\Debug\confess.Depo_Stok.resources
+C:\Users\akcok\OneDrive\Belgeler\visual studio 2013\Projects\confess\confess\obj\Debug\confess.Depertman.resources

@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{056F4CFB-8117-44D7-94DD-192AC1E8DB19}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>confess</RootNamespace>
+    <AssemblyName>confess</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\cAracDAO.cs" />
+    <Compile Include="DAO\cBaglanti.cs" />
+    <Compile Include="DAO\cBolumDAO.cs" />
+    <Compile Include="DAO\cMusteriDAO.cs" />
+    <Compile Include="DAO\cPersonelDAO.cs" />
+    <Compile Include="DAO\cTedarikDAO.cs" />
+    <Compile Include="DAO\cUrunBilgiDAO.cs" />
+    <Compile Include="DAO\cUrunGirdisiDAO.cs" />
+    <Compile Include="DAO\cUrunStokDAO.cs" />
+    <Compile Include="DAO\cUrun_CiktisiDAO.cs" />
+    <Compile Include="Depertman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Depertman.Designer.cs">
+      <DependentUpon>Depertman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Depo_Stok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Depo_Stok.Designer.cs">
+      <DependentUpon>Depo_Stok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DOMAIN\cArac.cs" />
+    <Compile Include="DOMAIN\cBolum.cs" />
+    <Compile Include="DOMAIN\cMusteri.cs" />
+    <Compile Include="DOMAIN\cPersonel.cs" />
+    <Compile Include="DOMAIN\cTedarik.cs" />
+    <Compile Include="DOMAIN\cUrun Base.cs" />
+    <Compile Include="DOMAIN\cUrunBilgi.cs" />
+    <Compile Include="DOMAIN\cUrunStok.cs" />
+    <Compile Include="DOMAIN\cUrun_Ciktisi.cs" />
+    <Compile Include="DOMAIN\cUrun_Giridisi.cs" />
+    <Compile Include="Musteri_Bilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Musteri_Bilgileri.Designer.cs">
+      <DependentUpon>Musteri_Bilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="root.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="root.Designer.cs">
+      <DependentUpon>root.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris.Designer.cs">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\cService.cs" />
+    <Compile Include="Tedarikci_Bilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tedarikci_Bilgileri.Designer.cs">
+      <DependentUpon>Tedarikci_Bilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Urun_Bilgisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urun_Bilgisi.Designer.cs">
+      <DependentUpon>Urun_Bilgisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Urun_Cikis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urun_Cikis.Designer.cs">
+      <DependentUpon>Urun_Cikis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Urun_Girdisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urun_Girdisi.Designer.cs">
+      <DependentUpon>Urun_Girdisi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Depertman.resx">
+      <DependentUpon>Depertman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Depo_Stok.resx">
+      <DependentUpon>Depo_Stok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Musteri_Bilgileri.resx">
+      <DependentUpon>Musteri_Bilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="root.resx">
+      <DependentUpon>root.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giris.resx">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Tedarikci_Bilgileri.resx">
+      <DependentUpon>Tedarikci_Bilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Urun_Bilgisi.resx">
+      <DependentUpon>Urun_Bilgisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Urun_Cikis.resx">
+      <DependentUpon>Urun_Cikis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Urun_Girdisi.resx">
+      <DependentUpon>Urun_Girdisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\support.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-product %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotel-supplier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\collaboration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-shake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500_F_97562152_QT5s7Fd7asElNo7DLtX0JYAcMfUBggYw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\assembly-line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-product.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_TractorUnitBlack_22998.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Human-people-teamwork-graph-analysis-man_2992658.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\technology.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signs1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipboard %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_rssshop_61934.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_people-11_2716071.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tupperware.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order_tracking_online-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warehouse %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\storage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Customers-Transparent-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siparis-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipboard %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speed.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

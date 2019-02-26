@@ -1,0 +1,34 @@
+C:\Users\akcok\OneDrive\Belgeler\visual studio 2013\Projects\confess\confess\bin\Debug\confess.exe.config
+C:\Users\akcok\OneDrive\Belgeler\visual studio 2013\Projects\confess\confess\obj\Debug\confess.exe
+C:\Users\akcok\OneDrive\Belgeler\visual studio 2013\Projects\confess\confess\obj\Debug\confess.pdb
+C:\Users\akcok\OneDrive\Belgeler\Visual Studio 2013\Projects\confess\confess\bin\Debug\confess.exe
+C:\Users\akcok\OneDrive\Belgeler\Visual Studio 2013\Projects\confess\confess\bin\Debug\confess.pdb
+C:\Users\akcok\OneDrive\Belgeler\Visual Studio 2013\Projects\confess\confess\obj\Debug\TupperWare Depo_Stok_Kontrol.csprojResolveAssemblyReference.cache
+C:\Users\akcok\OneDrive\Belgeler\Visual Studio 2013\Projects\confess\confess\obj\Debug\confess.Depertman.resources
+C:\Users\akcok\OneDrive\Belgeler\Visual Studio 2013\Projects\confess\confess\obj\Debug\confess.Depo_Stok.resources
+C:\Users\akcok\OneDrive\Belgeler\Visual Studio 2013\Projects\confess\confess\obj\Debug\confess.Musteri_Bilgileri.resources
+C:\Users\akcok\OneDrive\Belgeler\Visual Studio 2013\Projects\confess\confess\obj\Debug\confess.root.resources
+C:\Users\akcok\OneDrive\Belgeler\Visual Studio 2013\Projects\confess\confess\obj\Debug\confess.Giris.resources
+C:\Users\akcok\OneDrive\Belgeler\Visual Studio 2013\Projects\confess\confess\obj\Debug\confess.Properties.Resources.resources
+C:\Users\akcok\OneDrive\Belgeler\Visual Studio 2013\Projects\confess\confess\obj\Debug\confess.Tedarikci_Bilgileri.resources
+C:\Users\akcok\OneDrive\Belgeler\Visual Studio 2013\Projects\confess\confess\obj\Debug\confess.Urun_Bilgisi.resources
+C:\Users\akcok\OneDrive\Belgeler\Visual Studio 2013\Projects\confess\confess\obj\Debug\confess.Urun_Cikis.resources
+C:\Users\akcok\OneDrive\Belgeler\Visual Studio 2013\Projects\confess\confess\obj\Debug\confess.Urun_Girdisi.resources
+C:\Users\akcok\OneDrive\Belgeler\Visual Studio 2013\Projects\confess\confess\obj\Debug\TupperWare Depo_Stok_Kontrol.csproj.GenerateResource.Cache
+C:\Users\akcok\OneDrive\Masaüstü\confess\confess\bin\Debug\confess.exe.config
+C:\Users\akcok\OneDrive\Masaüstü\confess\confess\obj\Debug\confess.exe
+C:\Users\akcok\OneDrive\Masaüstü\confess\confess\obj\Debug\confess.pdb
+C:\Users\akcok\OneDrive\Masaüstü\confess\confess\bin\Debug\confess.exe
+C:\Users\akcok\OneDrive\Masaüstü\confess\confess\bin\Debug\confess.pdb
+C:\Users\akcok\OneDrive\Masaüstü\confess\confess\obj\Debug\TupperWare Depo_Stok_Kontrol.csprojResolveAssemblyReference.cache
+C:\Users\akcok\OneDrive\Masaüstü\confess\confess\obj\Debug\confess.Depertman.resources
+C:\Users\akcok\OneDrive\Masaüstü\confess\confess\obj\Debug\confess.Depo_Stok.resources
+C:\Users\akcok\OneDrive\Masaüstü\confess\confess\obj\Debug\confess.Musteri_Bilgileri.resources
+C:\Users\akcok\OneDrive\Masaüstü\confess\confess\obj\Debug\confess.root.resources
+C:\Users\akcok\OneDrive\Masaüstü\confess\confess\obj\Debug\confess.Giris.resources
+C:\Users\akcok\OneDrive\Masaüstü\confess\confess\obj\Debug\confess.Properties.Resources.resources
+C:\Users\akcok\OneDrive\Masaüstü\confess\confess\obj\Debug\confess.Tedarikci_Bilgileri.resources
+C:\Users\akcok\OneDrive\Masaüstü\confess\confess\obj\Debug\confess.Urun_Bilgisi.resources
+C:\Users\akcok\OneDrive\Masaüstü\confess\confess\obj\Debug\confess.Urun_Cikis.resources
+C:\Users\akcok\OneDrive\Masaüstü\confess\confess\obj\Debug\confess.Urun_Girdisi.resources
+C:\Users\akcok\OneDrive\Masaüstü\confess\confess\obj\Debug\TupperWare Depo_Stok_Kontrol.csproj.GenerateResource.Cache
